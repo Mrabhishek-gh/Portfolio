@@ -168,21 +168,21 @@ h2{
     background-image: -ms-linear-gradient(top, #559BC9, #285EB5);
     background-image: -o-linear-gradient(top, #559BC9, #285EB5);
     background-image: -webkit-gradient(to bottom, #559BC9, #285EB5);
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
     color: #FFFFFF;
     font-family: Arial;
-    font-size: 39px;
-    font-weight: 100;
-    padding: 25px;
+    font-size: 20px;
+    font-weight: 70;
+    padding: 5px;
     border: solid #337FED 0;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 24px;
  }
  
  .btn:hover {
@@ -220,4 +220,8 @@ a:hover{
 }
 .left-alligned{
     text-align: left;
+}
+
+.static{
+    position: fixed;
 }
