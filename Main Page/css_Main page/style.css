@@ -210,3 +210,14 @@ a:hover{
 .edu_hed{
     padding-bottom: 3%;
 }
+
+.size1{
+    max-width: 300px;
+}
+
+.size2{
+    max-width: 200px;
+}
+.move{
+    margin-left: 0px;
+}
