@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: #dba9a9;
+}
+
+
+.title{
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 2%;    
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}

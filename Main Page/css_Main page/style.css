@@ -15,26 +15,70 @@ h1{
 .top_container{
     background-color: #EAF6F6;
     position: relative; 
-    padding-top: 100px; 
+    padding-top: 100px;
+    padding-bottom: 510px; 
+}
+.testimonial-image {
+    max-width: 30%;
+    margin: 20px;
+    height: 30%;
 }
 
+.sun{
+    max-width: 110px;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+
+}
 .bottom-cloud{
     position: absolute;
-    left: 20%;
+    left: 27%;
+    top: 30%;
+    max-width: 9%;
     
 
 }
 .top-cloud{
     position: absolute;
-    right: 20%;
-    top: 80px;
+    right: 25%;
+    top: 4%;
+    max-width: 9%;
     
 }
-.mountain{
-    position: relative;
+
+.mill{
+    max-width: 18.75rem;
+    position: absolute;
+    right: 58.5%;
+    top: 64.6%;
+    z-index: 1;
     margin: 0px;
     border-bottom: 0px;
-    
+}
+.train{
+    max-width: 6.25rem;
+    position: absolute;
+    right: 32%;
+    top: 90%;
+    z-index: 1;
+    margin: 0px;
+    border-bottom: 0px;
+}
+.wind{
+    max-width: 4vw;
+    position: absolute;
+    right: 60%;
+    top: 57%;
+    z-index: 0;
+
+}
+.mountain{
+    position: absolute;
+    margin: 0px;
+    border-bottom: 0px;
+    z-index: 2;
+    left: 37%;
     
 }
 .pro_pic{
@@ -97,17 +141,18 @@ h3{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 7%;
+    margin-bottom: 12%;
     text-align: left;
     
 }
 
 .baloon{
-    width: 150px;
     position: absolute;
-    right: 30%;
-    top: 350px;
+    width: 160px;
+    right: 36%;
+    top: 30%;
+    left: 60%;
 }
 
 p{
@@ -142,24 +187,24 @@ h2{
     margin-right: auto;
 }
 .skills_1{
-    width: 30%;
+    width: 28%;
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;  
 }
 .skills_2{
-    width: 30%;
+    width: 28%;
     float: right;
     margin-right: 30px;
 }
 .skills_3{
-    width: 30%;
+    width: 28%;
     float: left;
     margin-right: 30px;
 }
 .touch{
-    font-size: 40px;
-    font-family: 'Lato', sans-serif;
+    font-size: 54px;
+    font-family: 'Dancing Script', cursive;
     margin-bottom: 30px;
 }
 
@@ -209,6 +254,7 @@ a:hover{
 }
 .edu_hed{
     padding-bottom: 3%;
+    font-family: 'Roboto Slab', serif;
 }
 
 .size1{
@@ -220,4 +266,132 @@ a:hover{
 }
 .move{
     margin-left: 0px;
+}
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.button{
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin:3%
+}
+  
+.button:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+
+
+.art{
+    background-color: #c8c8c8;  
+    border: 1px solid #ddd;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    position: relative;
+    margin-top: 1%;
+	
+}
+.font{
+    font-family: 'Festive', cursive;
+    color: black;
+}
+
+.artist{
+    position: absolute;
+    width: 15%;
+    left: 80%;
+    bottom: 100%;
+}
+
+.testimonial-image{
+    width: 100%;
+}
+.button1{
+    width: 17vw;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin:3%
+}
+
+.button1:hover{
+    background-color: #d2e2dc;
+    box-shadow: 0px 15px 20px rgba(180, 185, 183, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.github{
+    position: relative;
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-right: 3em;
+}
+
+.small{
+    width: 3vw;
+}
+.skill_op{
+    position: relative;
+    max-width: 9vw;
+    padding-bottom: 5%;
+}
+
+.button2{
+    width: 13vw;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin:3%
+}
+
+.button2:hover{
+    background-color: #000000;
+    box-shadow: 0px 15px 20px rgba(180, 185, 183, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.p{
+    text-align: justify;
 }
