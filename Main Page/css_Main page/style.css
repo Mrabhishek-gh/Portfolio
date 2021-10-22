@@ -351,11 +351,11 @@ a:hover{
     color: #fff;
     transform: translateY(-7px);
 }
-.github{
+.github,.github1{
     position: relative;
-    margin-left: 5em;
+    margin-left: 0.1em;
     margin-top: 1em;
-    margin-right: 3em;
+    text-align: left;
 }
 
 .small{
