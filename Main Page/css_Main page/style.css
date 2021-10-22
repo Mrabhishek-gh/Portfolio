@@ -144,6 +144,7 @@ h3{
     margin-top: 7%;
     margin-bottom: 12%;
     text-align: left;
+    border:2px;
     
 }
 
@@ -187,20 +188,23 @@ h2{
     margin-right: auto;
 }
 .skills_1{
-    width: 28%;
+    width: 30%;
     float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;  
+    margin-right: 2%;
+    margin-bottom: 10%;  
 }
 .skills_2{
-    width: 28%;
+    width: 30%;
     float: right;
-    margin-right: 30px;
+    margin-right: 3%;
+    margin-left: 2%;
+    margin-bottom: 12%;
 }
 .skills_3{
-    width: 28%;
+    width: 30%;
     float: left;
-    margin-right: 30px;
+    margin-right: 1%;
+    margin-bottom: 12%;
 }
 .touch{
     font-size: 54px;
@@ -275,7 +279,7 @@ a:hover{
   }
   
 .button{
-    width: 140px;
+    width: 15vw;
     height: 45px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
@@ -290,7 +294,8 @@ a:hover{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    margin:3%
+    margin-top: 2%;
+    
 }
   
 .button:hover{
@@ -353,7 +358,7 @@ a:hover{
 }
 .github,.github1{
     position: relative;
-    margin-left: 0.1em;
+    margin-left: 6em;
     margin-top: 1em;
     text-align: left;
 }
@@ -383,7 +388,9 @@ a:hover{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    margin:3%
+    margin-top: 10%;
+    margin-bottom: 20%;
+
 }
 
 .button2:hover{
@@ -394,4 +401,14 @@ a:hover{
 }
 .p{
     text-align: justify;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+.pro_pic1{
+    max-width: 5vw;
+    position: absolute;
+    right: 3%;
+    top: 2%;
 }
